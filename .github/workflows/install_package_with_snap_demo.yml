@@ -22,5 +22,5 @@ jobs:
       - name: Print versions? (Postinstall step)
         run: | 
           apm --version
-          atom -v
+          atom --no-sandbox --version
         shell: bash
