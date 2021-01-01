@@ -23,4 +23,12 @@ jobs:
         run: |
           atom --version
           apm --version
+          atom --version
+          apm --version
+          atom --version
+          apm --version
+          atom --version
+          apm --version
+          atom --version
+          apm --version
         shell: bash
