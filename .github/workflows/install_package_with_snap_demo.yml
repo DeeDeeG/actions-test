@@ -15,7 +15,7 @@ jobs:
     steps:
       # Installs a Snap package
       - name: Install something with Snap? (Main step)
-        run: sudo snap install atom --classic
+        run: snap install atom --classic
         shell: bash
 
       # Prints the package versions
