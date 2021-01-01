@@ -20,5 +20,7 @@ jobs:
 
       # Prints the package versions
       - name: Print versions? (Postinstall step)
-        run: apm --version
+        run: | 
+          apm --version
+          atom -v
         shell: bash
